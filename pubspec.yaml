@@ -1,8 +1,8 @@
 name: toggle_slider
 description: A new Flutter package project.
 version: 0.0.1
-author:
-homepage:
+author: Joan Kabello
+homepage: https://github.com/joankabello/toggle_slider
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
