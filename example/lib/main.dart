@@ -29,14 +29,20 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: ToggleSlider(
-          sliderContainerDecoration: BoxDecoration(color: Colors.blue),
+          sliderContainerDecoration: BoxDecoration(
+            color: Colors.blue,
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(10.0),
+              bottomRight: Radius.circular(10.0),
+            ),
+          ),
           toggleCardNumber: 4,
-          sliderTitle: "My Slider",
+          sliderTitle: "Slider",
           divisions: 5,
           minSliderValue: 10,
           maxSliderValue: 50,
           sliderContainerHeight: 100,
-          sliderContainerWidth: 800,
+          sliderContainerWidth: 400,
           cardColor: Colors.blue,
           cardAspectRatio: 1,
           cardWidth: 90,
