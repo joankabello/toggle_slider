@@ -24,7 +24,7 @@ class ToggleSlider extends StatefulWidget {
   final EdgeInsetsGeometry cardPadding;
   final TextStyle cardValueStyle;
   final TextStyle sliderTextStyle;
-  
+
   ToggleSlider({
     Key key,
     this.toggleCardNumber = 1,
@@ -42,7 +42,9 @@ class ToggleSlider extends StatefulWidget {
     this.cardBorderRadius,
     this.cardImage,
     this.cardPadding,
-    this.cardHeight, this.cardValueStyle, this.sliderTextStyle,
+    this.cardHeight,
+    this.cardValueStyle,
+    this.sliderTextStyle,
   }) : super(key: key);
 
   @override
@@ -74,6 +76,8 @@ class ToggleSliderState extends State<ToggleSlider> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         ToggleButtons(
           fillColor: Colors.transparent,
@@ -87,7 +91,9 @@ class ToggleSliderState extends State<ToggleSlider> {
               Padding(
                 padding: widget.cardPadding,
                 child: toggleCard(
-                  sliderValue: targetTemperatureList[i] == null ? "-" : targetTemperatureList[i].floorToDouble().toString(),
+                  sliderValue: targetTemperatureList[i] == null
+                      ? "-"
+                      : targetTemperatureList[i].floorToDouble().toString(),
                   cardValueStyle: widget.cardValueStyle,
                   width: widget.cardWidth,
                   height: widget.cardHeight,
