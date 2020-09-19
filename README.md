@@ -5,7 +5,7 @@ A Dart / Flutter package to create Toggle widgets with Sliders
 
 ## Installation
 
-- Add `toggle_slider` in `pubsec.yaml.
+- Add `toggle_slider` in `pubsec.yaml.`
 - Import `package:toggle_slider/toggle_slider.dart` in your project.
 
 ## Example
