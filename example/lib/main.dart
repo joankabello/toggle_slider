@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
           divisions: 5,
           minSliderValue: 10,
           maxSliderValue: 50,
-          sliderContainerHeight: 100,
+          sliderContainerHeight: 80,
           sliderContainerWidth: 400,
           cardColor: Colors.blue,
           cardAspectRatio: 1,
