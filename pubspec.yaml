@@ -1,6 +1,6 @@
 name: toggle_slider
 description: A Dart / Flutter package to create Toggle widgets with Sliders.
-version: 0.0.1
+version: 0.0.1+1
 authors: 
   - joan.kabello@gmail.com
 homepage: https://github.com/joankabello/toggle_slider

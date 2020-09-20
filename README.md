@@ -1,7 +1,7 @@
 # toggle_slider
 A Dart / Flutter package to create Toggle widgets with Sliders
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
+[![Build Status](https://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 
 ## Installation
 
