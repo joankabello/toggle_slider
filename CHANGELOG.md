@@ -1,3 +1,3 @@
-## [0.0.1] - 12.09.2020
+## [0.0.1+1] - 20.09.2020
 
-* Toggle Slider version 0.0.1
+* Toggle Slider version 0.0.1+1
